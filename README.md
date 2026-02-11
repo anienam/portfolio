@@ -3,7 +3,7 @@
 Personal frontend developer portfolio showcasing projects, skills, and experience.
 
 ## Live Demo
-Coming soon
+https://anienam.vercel.app/
 
 ## Tech Stack
 - HTML
