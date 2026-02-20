@@ -189,6 +189,20 @@ strong {
   align-items: start;
 }
 
+.hero-image {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 15%;
+  border: 4px solid rgba(96, 165, 250, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
 .eyebrow {
   display: inline-flex;
   gap: 0.6rem;
@@ -538,5 +552,10 @@ strong {
   }
   .stat-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
   }
 }
