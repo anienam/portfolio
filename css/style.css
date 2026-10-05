@@ -252,6 +252,7 @@ strong {
 .btn:hover {
   text-decoration: none;
   filter: brightness(1.05);
+  background: rgba(255, 255, 255, 0.303);
 }
 .btn.primary {
   background: rgba(96, 165, 250, 0.18);
@@ -634,4 +635,9 @@ strong {
   .project-showcase {
     grid-template-columns: 1fr;
   }
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.136);
+  color: var(--text);
 }
